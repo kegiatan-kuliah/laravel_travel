@@ -4,3 +4,4 @@
 <x-backpack::menu-item title="Customers" icon="la la-user" :link="backpack_url('customer')" />
 <x-backpack::menu-item title="Cars" icon="la la-car" :link="backpack_url('car')" />
 <x-backpack::menu-item title="Drivers" icon="la la-certificate" :link="backpack_url('driver')" />
+<x-backpack::menu-item title="Bookings" icon="la la-clipboard" :link="backpack_url('booking')" />
