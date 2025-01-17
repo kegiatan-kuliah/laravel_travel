@@ -5,3 +5,4 @@
 <x-backpack::menu-item title="Cars" icon="la la-car" :link="backpack_url('car')" />
 <x-backpack::menu-item title="Drivers" icon="la la-certificate" :link="backpack_url('driver')" />
 <x-backpack::menu-item title="Bookings" icon="la la-clipboard" :link="backpack_url('booking')" />
+<x-backpack::menu-item title="Payments" icon="la la-money" :link="backpack_url('payment')" />
