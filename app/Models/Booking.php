@@ -28,4 +28,9 @@ class Booking extends Model
     {
         return $this->belongsTo(Driver::class, 'driver_id');
     }
+
+    public function export($crud = false)
+    {
+        return '<a class="btn btn-primary" target="_blank" href="'.route('booking.export').'">Download PDF</a>';
+    }
 }
